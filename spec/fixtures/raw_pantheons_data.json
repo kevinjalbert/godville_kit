@@ -1,0 +1,116 @@
+{
+  "status": "success",
+  "groups": [
+    {
+      "group_name": "Long-term",
+      "pantheons": [
+        {
+          "name": "Gratitude",
+          "position": "\u2212",
+          "id": 4,
+          "l": "gratitude"
+        },
+        {
+          "name": "Might",
+          "position": "\u2212",
+          "id": 1,
+          "l": "might"
+        },
+        {
+          "name": "Templehood",
+          "position": "\u2212",
+          "id": 15,
+          "l": "templehood"
+        },
+        {
+          "name": "Gladiatorship",
+          "position": "\u2212",
+          "id": 11,
+          "l": "gladiatorship"
+        },
+        {
+          "name": "Storytelling",
+          "position": "\u2212",
+          "id": 9,
+          "l": "storytelling"
+        }
+      ]
+    },
+    {
+      "group_name": "Short-term",
+      "pantheons": [
+        {
+          "name": "Mastery",
+          "position": 12269,
+          "id": 13,
+          "l": "mastery"
+        },
+        {
+          "name": "Construction",
+          "position": 7024,
+          "id": 10,
+          "l": "construction"
+        },
+        {
+          "name": "Taming",
+          "position": "\u2212",
+          "id": 12,
+          "l": "taming"
+        },
+        {
+          "name": "Survival",
+          "position": 2607,
+          "id": 3,
+          "l": "survival"
+        },
+        {
+          "name": "Savings",
+          "position": "\u2212",
+          "id": 21,
+          "l": "savings"
+        },
+        {
+          "name": "Creation",
+          "position": 163,
+          "id": 7,
+          "l": "creation"
+        },
+        {
+          "name": "Destruction",
+          "position": "\u2212",
+          "id": 8,
+          "l": "destruction"
+        },
+        {
+          "name": "Arkeology",
+          "position": "\u2212",
+          "id": 22,
+          "l": "wood"
+        }
+      ]
+    },
+    {
+      "group_name": "Guild pantheons",
+      "pantheons": [
+        {
+          "name": "Unity",
+          "position": 2,
+          "id": 5,
+          "l": "unity"
+        },
+        {
+          "name": "Popularity",
+          "position": 4,
+          "id": 19,
+          "l": "popularity"
+        },
+        {
+          "name": "Aggressiveness",
+          "position": 2,
+          "id": 20,
+          "l": "aggressiveness"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "status": "success",
+  "hero": {
+    "name": "Blitz Boltus",
+    "godname": "Blitz Bolt",
+    "gender": "male",
+    "gold_approx": "about one thousand",
+    "level": 15,
+    "quest": "Skate on thin ice",
+    "quest_progress": 4,
+    "exp_progress": 84,
+    "health": 17,
+    "max_health": 156,
+    "inventory_num": 2,
+    "inventory_max_num": 14,
+    "alignment": "virtuous",
+    "motto": "Turns man into legend",
+    "clan": "Knights who say Ni",
+    "time_zone": "Eastern Time (US u0026 Canada)",
+    "diary_last": "My life seems repetitive. I need to change something... maybe my haircut?",
+    "temple_completed_at": null,
+    "ark_completed_at": null,
+    "town_name": "",
+    "distance": 2,
+    "arena_fight": false,
+    "bricks_cnt": 41,
+    "wood": "",
+    "godpower": 12,
+    "clan_position": "follower",
+    "a_cmd": false,
+    "pets_max": 0,
+    "pet_completed_at": null,
+    "inventory_serial": 3646,
+    "max_gp": 100,
+    "gold": 1231,
+    "gold_we": "1231 coins",
+    "monsters_killed": 3177,
+    "death_count": 1,
+    "arena_won": 1,
+    "arena_lost": 0,
+    "is_arena_available": false,
+    "d_a": false,
+    "is_chf_available": false,
+    "chf_pending": "",
+    "age_str": "about 21 days",
+    "birthday": "2014-04-13T00: 30: 25+01: 00",
+    "accumulator": 8.0,
+    "quests_completed": 33,
+    "aln": "good",
+    "dir": "tt",
+    "m_id": "10",
+    "monster_name": null,
+    "s_progress": 75.0,
+    "arena_send_after": 0,
+    "d_send_after": 0,
+    "chfr_after": 0,
+    "is_arena_disabled": false,
+    "aura_time": null,
+    "aura_name": null,
+    "c_town": null,
+    "invites_left": 5,
+    "ggender": "male",
+    "arena_god_cmd_disabled": false
+  },
+  "skills": [
+    {
+      "name": "Asynchronous swimming",
+      "level": 4,
+      "type": "travel"
+    }
+  ],
+  "inventory": {
+    "Counterclockwise clock": {
+      "cnt": 1,
+      "pos": 0,
+      "price": 0
+    },
+    "Hexbox": {
+      "cnt": 1,
+      "pos": 1,
+      "price": 0
+    }
+  },
+  "equipment": {
+    "weapon": {
+      "name": "Holy water pistol",
+      "level": "+11",
+      "capt": "Weapon"
+    },
+    "shield": {
+      "name": "Bulletproof monk",
+      "level": "+13",
+      "capt": "Shield"
+    },
+    "head": {
+      "name": "Gentleman's top hat",
+      "level": "+11",
+      "capt": "Head"
+    },
+    "body": {
+      "name": "Kevlar vest",
+      "level": "+10",
+      "capt": "Body"
+    },
+    "arms": {
+      "name": "Hellboy's cuff",
+      "level": "+12",
+      "capt": "Arms"
+    },
+    "legs": {
+      "name": "Magic stone slippers",
+      "level": "+12",
+      "capt": "Legs"
+    },
+    "talisman": {
+      "name": "Sheriff's badge",
+      "level": "+10",
+      "capt": "Talisman"
+    }
+  },
+  "ctime": "2014-05-04T11: 06: 29-04: 00",
+  "gca": {
+    "reglr": 100,
+    "tmpl_3": 82,
+    "gcard": 8,
+    "goodm": 100,
+    "bmk": 40,
+    "sk5": 20,
+    "a10": 10,
+    "dth": 10,
+    "goodm_2": 27,
+    "reglr_2": 84,
+    "equip": 100
+  },
+  "gcak": {
+    "reglr": "1",
+    "goodm": "1"
+  },
+  "gcid": "G: 1921902615",
+  "has_pet": false,
+  "cmds": {
+
+  },
+  "hints": [
+
+  ],
+  "news_from_field": {
+    "time": "2014-05-04T11: 06: 28-04: 00",
+    "msg": "Calling ahead to make reservations..."
+  },
+  "diary": [
+    {
+      "time": "2014-05-04T11: 05: 12-04: 00",
+      "msg": "My life seems repetitive. I need to change something... maybe my haircut?"
+    },
+    {
+      "time": "2014-05-04T11: 01: 42-04: 00",
+      "msg": "A wandering alchemist just told me that beer is a solution. I completely agree."
+    },
+    {
+      "time": "2014-05-04T11: 01: 32-04: 00",
+      "msg": "I'll bounce back after my defeat. I'll bounce all the way back to town, in fact."
+    },
+    {
+      "time": "2014-05-04T11: 01: 47-04: 00",
+      "msg": "Ready... Steady... Flee!"
+    },
+    {
+      "time": "2014-05-04T10: 57: 57-04: 00",
+      "msg": "Watched a centipede and I couldn't understand how it does it. I have enough trouble with just two legs."
+    },
+    {
+      "time": "2014-05-04T10: 58: 03-04: 00",
+      "msg": "The dead Redshirt had 17 gold coins in its little coin purse. I looted it, bringing me one step closer to world supremacy."
+    },
+    {
+      "time": "2014-05-04T10: 54: 44-04: 00",
+      "msg": "Filed down the Ideabox Guardian's claws so that it wouldn't be so intimidating. It gave me 148 gold coins for a manicure.",
+      "m_wiki": "Ideabox Guardian"
+    },
+    {
+      "time": "2014-05-04T10: 53: 51-04: 00",
+      "msg": "I waved my arms wildly, made a scary face, and did an unflattering impression of the Ideabox Guardian. It stood aside and patiently waited until I finished showing off."
+    },
+    {
+      "time": "2014-05-04T10: 53: 01-04: 00",
+      "msg": "My life was saved again! I knew you wouldn't leave me in trouble, Great One!",
+      "infl": true
+    },
+    {
+      "time": "2014-05-04T10: 48: 04-04: 00",
+      "msg": "Tried to let my fists do the talking, but they didn't have much to say."
+    }
+  ],
+  "gc_mid": 149446,
+  "gc_n": "Knights who say Ni",
+  "lbp": 78
+}
