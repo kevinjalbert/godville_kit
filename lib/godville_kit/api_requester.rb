@@ -3,17 +3,17 @@ class GodvilleKit::APIRequester
   attr_reader :username,
               :password,
               :hero_guid,
-              :pantheon_guid
+              :pantheons_guid
 
   class UnexpectedResponseException < StandardError; end
   class InvalidAuthenticationException < StandardError; end
   class AuthenticationCaptchaException < StandardError; end
 
-  def initialize(username, password, hero_guid, pantheon_guid)
+  def initialize(username, password, hero_guid, pantheons_guid)
     @username = username
     @password = password
     @hero_guid = hero_guid
-    @pantheon_guid = pantheon_guid
+    @pantheons_guid = pantheons_guid
   end
 
   def get_hero
@@ -66,7 +66,7 @@ class GodvilleKit::APIRequester
     return unless authenticated?
 
     response = RestClient.get(
-      "https://godvillegame.com/fbh/feed?a=#{@pantheon_guid}",
+      "https://godvillegame.com/fbh/feed?a=#{@pantheons_guid}",
       {cookies: @cookies, content_type: :json, accept: :json}
     )
     JSON.parse(response)
