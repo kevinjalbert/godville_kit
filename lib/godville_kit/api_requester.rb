@@ -22,6 +22,8 @@ class GodvilleKit::APIRequester
   end
 
   def authenticate
+    return if authenticated?
+
     RestClient.post(
       'https://godvillegame.com/login/login',
       {username: @username,
