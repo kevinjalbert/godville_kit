@@ -7,9 +7,10 @@ group :test do
   gem 'coveralls', require: false
 end
 
-group :debug do
+group :development do
   gem 'pry-debugger'
   gem 'pry-stack_explorer'
+  gem 'rubocop'
 end
 
 group :darwin do

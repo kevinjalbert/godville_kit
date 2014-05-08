@@ -3,8 +3,11 @@
 require 'rake/clean'
 require 'rspec/core/rake_task'
 require 'bundler/gem_tasks'
+require 'rubocop/rake_task'
 
 CLOBBER.include('coverage')
+
+Rubocop::RakeTask.new
 
 desc "Run all specs"
 RSpec::Core::RakeTask.new do |t|
