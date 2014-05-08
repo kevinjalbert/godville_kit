@@ -21,10 +21,12 @@ The follow shows you how to perform the authentication with Godville's servers, 
     requester = GodvilleKit::APIRequester.new('user@gmail.com', 'my_password', 'hero_guid', 'pantheons_guid')
 
     # Fetch the current state of your hero and provides it as an object structure
-    hero = requester.get_hero
+    hero = requester.request_hero
 
 ### Required Data
-The `APIRequester` requires four pieces of information: username/email, password, hero GUID, pantheons GUID. The first two you should already know. To acquire the GUIDs are slightly more involved. From what I understand these Globally Unique Identifier (GUID) simply reference a resource as you make the API requests. These API requests are all going to the same API endpoint, and so we require the GUIDs to make requests for hero and pantheons data. This is all speculation on how Godville servers handle identified the resources. I have noticed that the Pantheons GUID changes through sessions, although the old GUID still provide access, so I am unsure how it exactly works, or when it will expire.
+The `APIRequester` requires four pieces of information: username/email, password, hero GUID, pantheons GUID. The first two you should already know. To acquire the GUIDs are slightly more involved. From what I understand these Globally Unique Identifier (GUID) simply reference a resource as you make the API requests. These API requests are all going to the same API endpoint, and so we require the GUIDs to make requests for hero and pantheons data.
+
+This is all speculation on how Godville servers handle identified the resources. I have noticed that the Pantheons GUID changes through sessions, although the old GUID still provide access, so I am unsure how it exactly works, or when it will expire.
 
 #### Hero GUID
 1. Open up Chrome (this work with Firefox as well, although some details will be different)
