@@ -1,12 +1,12 @@
-$:.unshift File.expand_path("../../lib", __FILE__)
+$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 
 require 'pathname'
 require 'tmpdir'
 
 home_dir = Pathname.new(Dir.pwd)
-spec_dir = home_dir + "spec"
+spec_dir = home_dir + 'spec'
 
-FIXTURE_PATH = spec_dir + "fixtures/"
+FIXTURE_PATH = spec_dir + 'fixtures/'
 
 Dir.glob(spec_dir + 'support/**/*.rb') { |file| require file }
 

@@ -9,9 +9,9 @@ CLOBBER.include('coverage')
 
 Rubocop::RakeTask.new
 
-desc "Run all specs"
+desc 'Run all specs'
 RSpec::Core::RakeTask.new do |t|
-  t.pattern = "./spec/**/*spec.rb"
+  t.pattern = './spec/**/*spec.rb'
 end
 
-task :default => :spec
+task default: :spec

@@ -6,11 +6,11 @@ describe 'Pantheons' do
   let(:raw_pantheons_data) { JSON.parse(fixture_contents('raw_pantheons_data.json')) }
 
   describe '#new' do
-    it{ should be_a(GodvilleKit::Pantheons) }
+    it { should be_a(GodvilleKit::Pantheons) }
     its(:gratitude) { should eq('−') }
     its(:might) { should eq('−') }
     its(:templehood) { should eq('−') }
-    its(:gladiatorship) { should eq ('−') }
+    its(:gladiatorship) { should eq('−') }
     its(:storytelling) { should eq('−') }
     its(:mastery) { should eq('12269') }
     its(:taming) { should eq('−') }

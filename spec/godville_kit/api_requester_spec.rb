@@ -7,7 +7,7 @@ describe 'APIRequester' do
     context 'when authenticated' do
       it 'returns json' do
         allow(subject).to receive(:authenticated?) { true }
-        allow(RestClient).to receive(:get) {fixture_contents('raw_hero_data.json')}
+        allow(RestClient).to receive(:get) { fixture_contents('raw_hero_data.json') }
         expect(subject.request_raw_hero_data).to be_a(Hash)
       end
     end
@@ -15,7 +15,7 @@ describe 'APIRequester' do
     context 'when not authenticated' do
       it 'returns nil' do
         allow(subject).to receive(:authenticated?) { false }
-        allow(RestClient).to receive(:get) {fixture_contents('raw_hero_data.json')}
+        allow(RestClient).to receive(:get) { fixture_contents('raw_hero_data.json') }
         expect(subject.request_raw_hero_data).to be_nil
       end
     end
@@ -25,7 +25,7 @@ describe 'APIRequester' do
     context 'when authenticated' do
       it 'returns json' do
         allow(subject).to receive(:authenticated?) { true }
-        allow(RestClient).to receive(:get) {fixture_contents('raw_pantheons_data.json')}
+        allow(RestClient).to receive(:get) { fixture_contents('raw_pantheons_data.json') }
         expect(subject.request_raw_pantheons_data).to be_a(Hash)
       end
     end
@@ -33,13 +33,13 @@ describe 'APIRequester' do
     context 'when not authenticated' do
       it 'returns nil' do
         allow(subject).to receive(:authenticated?) { false }
-        allow(RestClient).to receive(:get) {fixture_contents('raw_pantheons_data.json')}
+        allow(RestClient).to receive(:get) { fixture_contents('raw_pantheons_data.json') }
         expect(subject.request_raw_pantheons_data).to be_nil
       end
     end
   end
 
-  describe '#get_hero' do
+  describe '#request_hero' do
     before do
       allow(subject).to receive(:authenticate)
       allow(subject).to receive(:request_raw_hero_data)
@@ -47,7 +47,7 @@ describe 'APIRequester' do
     end
 
     it 'returns valid hero object' do
-      expect(subject.get_hero).to be_a(GodvilleKit::Hero)
+      expect(subject.request_hero).to be_a(GodvilleKit::Hero)
     end
   end
 end

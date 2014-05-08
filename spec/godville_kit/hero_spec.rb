@@ -7,7 +7,7 @@ describe 'Hero' do
   let(:raw_pantheons_data) { JSON.parse(fixture_contents('raw_pantheons_data.json')) }
 
   describe '#new' do
-    it{ should be_a(GodvilleKit::Hero) }
+    it { should be_a(GodvilleKit::Hero) }
     its(:equipment) { should be_a(GodvilleKit::Equipment) }
     its('equipment.weapon') { should be_a(GodvilleKit::Gear) }
     its('inventory.first') { should be_a(GodvilleKit::Item) }
