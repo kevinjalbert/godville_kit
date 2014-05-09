@@ -8,12 +8,12 @@
 
 ## Introduction
 
-This gem provides the functionality to query Godville for your hero's information. As Godville does not provide a public documented API, other approaches had to be explored. By observing the network activity when accessing Godville's hero page, it be clear that there are HTTP API calls to acquire the hero's information.
+This gem provides the functionality to query [Godville](http://godvillegame.com) for your hero's information. As [Godville](http://godvillegame.com) does not provide a public documented API, other approaches had to be explored. By observing the network activity when accessing [Godville' hero page](http://godvillegame.com/superhero), it be clear that there are HTTP API calls to acquire the hero's information.
 
 By using these HTTP API calls it is possible to acquire a JSON response containing the hero's data. This Gem takes the JSON responses and transforms them into a cohesive object structure detailing the hero. Hopefully this provides an easier way for data collection/visualizations or whatever you wish to create.
 
 ## Example Usage
-The follow shows you how to perform the authentication with Godville's servers, which then allows you to fetch your hero's data.
+The follow shows you how to perform the authentication with [Godville's](http://godvillegame.com) servers, which then allows you to fetch your hero's data.
 
     require 'godville_kit
 
@@ -26,7 +26,7 @@ The follow shows you how to perform the authentication with Godville's servers, 
 ### Required Data
 The `APIRequester` requires four pieces of information: username/email, password, hero GUID, pantheons GUID. The first two you should already know. To acquire the GUIDs are slightly more involved. From what I understand these Globally Unique Identifier (GUID) simply reference a resource as you make the API requests. These API requests are all going to the same API endpoint, and so we require the GUIDs to make requests for hero and pantheons data.
 
-This is all speculation on how Godville servers handle identified the resources. I have noticed that the Pantheons GUID changes through sessions, although the old GUID still provide access, so I am unsure how it exactly works, or when it will expire.
+This is all speculation on how [Godville](http://godvillegame.com) servers handle identified the resources. I have noticed that the Pantheons GUID changes through sessions, although the old GUID still provide access, so I am unsure how it exactly works, or when it will expire.
 
 #### Hero GUID
 1. Open up Chrome (this work with Firefox as well, although some details will be different)
