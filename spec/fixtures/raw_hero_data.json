@@ -4,60 +4,60 @@
     "name": "Blitz Boltus",
     "godname": "Blitz Bolt",
     "gender": "male",
-    "gold_approx": "about one thousand",
-    "level": 15,
-    "quest": "Skate on thin ice",
-    "quest_progress": 4,
-    "exp_progress": 84,
-    "health": 17,
-    "max_health": 156,
-    "inventory_num": 2,
-    "inventory_max_num": 14,
+    "gold_approx": "about 5 hundred",
+    "level": 18,
+    "quest": "Repair a broken dream",
+    "quest_progress": 71,
+    "exp_progress": 28,
+    "health": 168,
+    "max_health": 168,
+    "inventory_num": 1,
+    "inventory_max_num": 16,
     "alignment": "virtuous",
     "motto": "Turns man into legend",
     "clan": "Knights who say Ni",
-    "time_zone": "Eastern Time (US u0026 Canada)",
-    "diary_last": "My life seems repetitive. I need to change something... maybe my haircut?",
+    "time_zone": "Eastern Time (US & Canada)",
+    "diary_last": "Almighty, please send me a sign. Unless it's going to hurt - in that case I'm all set for signs, thanks.",
     "temple_completed_at": null,
     "ark_completed_at": null,
     "town_name": "",
-    "distance": 2,
+    "distance": 109,
     "arena_fight": false,
-    "bricks_cnt": 41,
+    "bricks_cnt": 62,
     "wood": "",
-    "godpower": 12,
-    "clan_position": "follower",
+    "godpower": 39,
+    "clan_position": "master",
     "a_cmd": false,
     "pets_max": 0,
     "pet_completed_at": null,
-    "inventory_serial": 3646,
+    "inventory_serial": 1523,
     "max_gp": 100,
-    "gold": 1231,
-    "gold_we": "1231 coins",
-    "monsters_killed": 3177,
-    "death_count": 1,
-    "arena_won": 1,
+    "gold": 505,
+    "gold_we": "505 coins",
+    "monsters_killed": 4924,
+    "death_count": 3,
+    "arena_won": 2,
     "arena_lost": 0,
     "is_arena_available": false,
     "d_a": false,
     "is_chf_available": false,
     "chf_pending": "",
-    "age_str": "about 21 days",
-    "birthday": "2014-04-13T00: 30: 25+01: 00",
-    "accumulator": 8.0,
-    "quests_completed": 33,
+    "age_str": "about 1 month",
+    "birthday": "2014-04-13T00:30:25+01:00",
+    "accumulator": 41,
+    "quests_completed": 50,
     "aln": "good",
-    "dir": "tt",
-    "m_id": "10",
+    "dir": "ft",
+    "m_id": "11",
     "monster_name": null,
-    "s_progress": 75.0,
+    "s_progress": 48,
     "arena_send_after": 0,
     "d_send_after": 0,
     "chfr_after": 0,
     "is_arena_disabled": false,
     "aura_time": null,
     "aura_name": null,
-    "c_town": null,
+    "c_town": "Tradeburg",
     "invites_left": 5,
     "ggender": "male",
     "arena_god_cmd_disabled": false
@@ -65,134 +65,167 @@
   "skills": [
     {
       "name": "Asynchronous swimming",
-      "level": 4,
+      "level": 6,
       "type": "travel"
+    },
+    {
+      "name": "Powerful sneeze",
+      "level": 2,
+      "type": "fight"
     }
   ],
   "inventory": {
-    "Counterclockwise clock": {
+    "Pitcher o' health": {
       "cnt": 1,
       "pos": 0,
-      "price": 0
-    },
-    "Hexbox": {
-      "cnt": 1,
-      "pos": 1,
-      "price": 0
+      "price": 0,
+      "type": "heal_potion"
     }
   },
   "equipment": {
     "weapon": {
-      "name": "Holy water pistol",
-      "level": "+11",
+      "name": "Pipe spanner",
+      "level": "+19",
       "capt": "Weapon"
     },
     "shield": {
-      "name": "Bulletproof monk",
-      "level": "+13",
+      "name": "Bull-shield",
+      "level": "+20",
       "capt": "Shield"
     },
     "head": {
-      "name": "Gentleman's top hat",
-      "level": "+11",
+      "name": "2D glasses",
+      "level": "+19",
       "capt": "Head"
     },
     "body": {
-      "name": "Kevlar vest",
-      "level": "+10",
+      "name": "Armor of the mighty moron",
+      "level": "+19",
       "capt": "Body"
     },
     "arms": {
-      "name": "Hellboy's cuff",
-      "level": "+12",
+      "name": "Runic bracers",
+      "level": "+21",
       "capt": "Arms"
     },
     "legs": {
-      "name": "Magic stone slippers",
-      "level": "+12",
+      "name": "Boots of depleted uranium",
+      "level": "+21",
       "capt": "Legs"
     },
     "talisman": {
-      "name": "Sheriff's badge",
-      "level": "+10",
+      "name": "Fire icicle",
+      "level": "+22",
       "capt": "Talisman"
     }
   },
-  "ctime": "2014-05-04T11: 06: 29-04: 00",
+  "ctime": "2014-05-15T19:06:19-04:00",
   "gca": {
     "reglr": 100,
-    "tmpl_3": 82,
-    "gcard": 8,
+    "tmpl_3": 100,
+    "gcard": 17,
     "goodm": 100,
-    "bmk": 40,
-    "sk5": 20,
-    "a10": 10,
-    "dth": 10,
-    "goodm_2": 27,
-    "reglr_2": 84,
-    "equip": 100
+    "bmk": 80,
+    "sk5": 40,
+    "a10": 20,
+    "dth": 30,
+    "goodm_2": 41,
+    "reglr_2": 100,
+    "equip": 100,
+    "reglr_3": 35,
+    "tmpl_2": 20
   },
   "gcak": {
     "reglr": "1",
-    "goodm": "1"
+    "goodm": "1",
+    "reglr_2": "1",
+    "equip": "1",
+    "tmpl_3": "1"
   },
-  "gcid": "G: 1921902615",
-  "has_pet": false,
-  "cmds": {
-
+  "gcid": "G:1921902615",
+  "pet": {
+    "pet_name": "Sandy",
+    "pet_class": "rocky raccoon",
+    "pet_level": 1,
+    "pet_is_dead": false,
+    "pet_birthday_string": "about 17 hours"
   },
+  "has_pet": true,
   "hints": [
 
   ],
   "news_from_field": {
-    "time": "2014-05-04T11: 06: 28-04: 00",
-    "msg": "Calling ahead to make reservations..."
+    "time": "2014-05-15T19:06:18-04:00",
+    "msg": "Finding his own idiosyncratic path..."
   },
   "diary": [
     {
-      "time": "2014-05-04T11: 05: 12-04: 00",
-      "msg": "My life seems repetitive. I need to change something... maybe my haircut?"
+      "time": "2014-05-15T19:03:28-04:00",
+      "msg": "Almighty, please send me a sign. Unless it's going to hurt - in that case I'm all set for signs, thanks."
     },
     {
-      "time": "2014-05-04T11: 01: 42-04: 00",
-      "msg": "A wandering alchemist just told me that beer is a solution. I completely agree."
+      "time": "2014-05-15T19:02:03-04:00",
+      "msg": "Donated 2 coins to you, Great One, as a life insurance premium."
     },
     {
-      "time": "2014-05-04T11: 01: 32-04: 00",
-      "msg": "I'll bounce back after my defeat. I'll bounce all the way back to town, in fact."
+      "time": "2014-05-15T19:00:03-04:00",
+      "msg": "Lit a candle. Caused a fire. Prayed for forgiveness instead of better health and gold."
     },
     {
-      "time": "2014-05-04T11: 01: 47-04: 00",
-      "msg": "Ready... Steady... Flee!"
+      "time": "2014-05-15T18:58:48-04:00",
+      "msg": "Had some fun at \u201cSpace Bar.\u201d Spent 477 gold coins."
     },
     {
-      "time": "2014-05-04T10: 57: 57-04: 00",
-      "msg": "Watched a centipede and I couldn't understand how it does it. I have enough trouble with just two legs."
+      "time": "2014-05-15T18:55:38-04:00",
+      "msg": "Parrots in the main square declared: \u201cYou should go shopping and buy something nice.\u201d",
+      "voice": true,
+      "voice_id": "1224336",
+      "voice_a": "Yavine"
     },
     {
-      "time": "2014-05-04T10: 58: 03-04: 00",
-      "msg": "The dead Redshirt had 17 gold coins in its little coin purse. I looted it, bringing me one step closer to world supremacy."
+      "time": "2014-05-15T18:50:58-04:00",
+      "msg": "Left the shop hastily without bothering to mention the newly broken hot pocket in the corner. Didn't want to risk facing the shopkeeper and having to pay for it."
     },
     {
-      "time": "2014-05-04T10: 54: 44-04: 00",
-      "msg": "Filed down the Ideabox Guardian's claws so that it wouldn't be so intimidating. It gave me 148 gold coins for a manicure.",
-      "m_wiki": "Ideabox Guardian"
+      "time": "2014-05-15T18:48:33-04:00",
+      "msg": "There was a mix up at the store and I was accidentally given healing items instead of booze for my journey. Darn that trader!"
     },
     {
-      "time": "2014-05-04T10: 53: 51-04: 00",
-      "msg": "I waved my arms wildly, made a scary face, and did an unflattering impression of the Ideabox Guardian. It stood aside and patiently waited until I finished showing off."
+      "time": "2014-05-15T18:47:03-04:00",
+      "msg": "Can't wait to be ashamed of what I do tonight."
     },
     {
-      "time": "2014-05-04T10: 53: 01-04: 00",
-      "msg": "My life was saved again! I knew you wouldn't leave me in trouble, Great One!",
-      "infl": true
+      "time": "2014-05-15T18:41:33-04:00",
+      "msg": "Enough resting. It's time to find something to do!"
     },
     {
-      "time": "2014-05-04T10: 48: 04-04: 00",
-      "msg": "Tried to let my fists do the talking, but they didn't have much to say."
+      "time": "2014-05-15T18:41:28-04:00",
+      "msg": "A silly yellow bear gave me a hug, restoring several pixels of my health."
     }
   ],
-  "gc_mid": 149446,
+  "imp_e": [
+    {
+      "time": "2014-05-15T11:59:32-04:00",
+      "msg": "The trader was impressed by my \u201cKnights who say Ni\u201d guild membership card. Received runic bracers as a free gift."
+    },
+    {
+      "time": "2014-05-15T07:07:37-04:00",
+      "msg": "Visited a hypnotist for some consultation. Now I have a sudden urge to repair a broken dream."
+    },
+    {
+      "time": "2014-05-15T06:18:10-04:00",
+      "msg": "A hero's work is never done, but my quest to boldly go where no one has gone before certainly is! This golden brick is a nice reward for such a thankless job."
+    },
+    {
+      "time": "2014-05-15T01:19:26-04:00",
+      "msg": "I looked into the kind eyes of the vanquished monster and suddenly decided \u2014 Rocky Raccoon, you'll be my pet! And I'll call you Sandy. Bandaged his wounds, gave him a treat and fastened the leash."
+    },
+    {
+      "time": "2014-05-14T17:33:49-04:00",
+      "msg": "The trader was impressed by my \u201cKnights who say Ni\u201d guild membership card. Received a fire icicle as a free gift."
+    }
+  ],
+  "gc_mid": 149764,
   "gc_n": "Knights who say Ni",
-  "lbp": 78
+  "lbp": 79
 }

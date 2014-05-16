@@ -13,6 +13,8 @@ describe 'Hero' do
     its('inventory.first') { should be_a(GodvilleKit::Item) }
     its('skills.first') { should be_a(GodvilleKit::Skill) }
     its('diary.first') { should be_a(GodvilleKit::DiaryEntry) }
+    its('important_events.first') { should be_a(GodvilleKit::DiaryEntry) }
+    its('pet') { should be_a(GodvilleKit::Pet) }
 
     context 'with no raw_hero_data' do
       let(:raw_hero_data) { nil }

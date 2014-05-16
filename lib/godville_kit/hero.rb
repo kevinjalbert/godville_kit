@@ -39,7 +39,9 @@ module GodvilleKit
                 :pantheons,
                 :equipment,
                 :skills,
-                :diary
+                :diary,
+                :important_events,
+                :pet
 
     def initialize(raw_hero_data, raw_pantheons_data)
       if raw_hero_data
@@ -95,6 +97,14 @@ module GodvilleKit
         @diary = raw_hero_data['diary'].map do |raw_diary_entry_data|
           GodvilleKit::DiaryEntry.new(raw_diary_entry_data)
         end
+
+        # Important Events
+        @important_events = raw_hero_data['imp_e'].map do |raw_important_events_entry_data|
+          GodvilleKit::DiaryEntry.new(raw_important_events_entry_data)
+        end
+
+        # Pet
+        @pet = GodvilleKit::Pet.new(raw_hero_data['pet'])
       end
 
       # Pantheons
